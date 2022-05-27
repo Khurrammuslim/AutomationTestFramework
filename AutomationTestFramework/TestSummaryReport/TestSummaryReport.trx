@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<TestRun id="37fbd106-687a-4722-98be-83ea952040ee" name="khurram.muslim@LQA-KHURRAMMUSL 2022-05-26 02:53:56" runUser="LQA-KHURRAMMUSL\khurram.muslim" xmlns="http://microsoft.com/schemas/VisualStudio/TeamTest/2010">
+  <Times creation="2022-05-26T02:53:56.1087179+05:00" queuing="2022-05-26T02:53:56.1087179+05:00" start="2022-05-26T02:53:48.8065421+05:00" finish="2022-05-26T02:54:14.7256598+05:00" />
+  <TestSettings name="default" id="880e457c-f1db-4fe6-bf9d-b07117d009cd">
+    <Deployment runDeploymentRoot="khurram.muslim_LQA-KHURRAMMUSL_2022-05-26_02_53_56" />
+  </TestSettings>
+  <Results>
+    <UnitTestResult executionId="e0706c36-4ab0-43ab-a3e6-f61cc282c947" testId="e6db2c00-3433-4075-969b-8d0dd4abc9b3" testName="LoginWithValidUserValidPassword_TC001 (Data Row 0)" computerName="LQA-KHURRAMMUSL" duration="00:00:04.5722397" startTime="2022-05-26T02:53:50.8214433+05:00" endTime="2022-05-26T02:53:56.0339823+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="e0706c36-4ab0-43ab-a3e6-f61cc282c947" />
+    <UnitTestResult executionId="14c3a495-e42c-4f3c-934b-8f981e50e612" testId="83f9a6cd-8656-4dab-99c3-1efdb7d4f2e5" testName="Filters_TC003" computerName="LQA-KHURRAMMUSL" duration="00:00:05.0717923" startTime="2022-05-26T02:54:06.0347886+05:00" endTime="2022-05-26T02:54:11.1074080+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="14c3a495-e42c-4f3c-934b-8f981e50e612" />
+    <UnitTestResult executionId="50cae86f-b513-412f-aee2-e606c252d98c" testId="2ef7256f-01d0-4fce-9929-43db08d9cfa4" testName="LoginWithInValidUserInValidPassword_TC002 (Data Row 0)" computerName="LQA-KHURRAMMUSL" duration="00:00:09.9652104" startTime="2022-05-26T02:53:56.0674969+05:00" endTime="2022-05-26T02:54:06.0337910+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="50cae86f-b513-412f-aee2-e606c252d98c" />
+    <UnitTestResult executionId="b69bc612-80d2-4c00-8298-67aea32f9a45" testId="bead8ff0-4e0b-43f7-a71f-5e7512774399" testName="SelectItem_TC004" computerName="LQA-KHURRAMMUSL" duration="00:00:03.4010627" startTime="2022-05-26T02:54:11.1074080+05:00" endTime="2022-05-26T02:54:14.5095447+05:00" testType="13cdc9d9-ddb5-4fa4-a97d-d965ccfc6d4b" outcome="Passed" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" relativeResultsDirectory="b69bc612-80d2-4c00-8298-67aea32f9a45" />
+  </Results>
+  <TestDefinitions>
+    <UnitTest name="Filters_TC003" storage="c:\users\khurram.muslim\source\repos\automationtestframework\automationtestframework\bin\debug\automationtestframework.dll" id="83f9a6cd-8656-4dab-99c3-1efdb7d4f2e5">
+      <Execution id="14c3a495-e42c-4f3c-934b-8f981e50e612" />
+      <TestMethod codeBase="C:\Users\khurram.muslim\Source\Repos\AutomationTestFramework\AutomationTestFramework\bin\Debug\AutomationTestFramework.dll" adapterTypeName="executor://mstestadapter/v2" className="AutomationTestFramework.TestExecution" name="Filters_TC003" />
+    </UnitTest>
+    <UnitTest name="SelectItem_TC004" storage="c:\users\khurram.muslim\source\repos\automationtestframework\automationtestframework\bin\debug\automationtestframework.dll" id="bead8ff0-4e0b-43f7-a71f-5e7512774399">
+      <Execution id="b69bc612-80d2-4c00-8298-67aea32f9a45" />
+      <TestMethod codeBase="C:\Users\khurram.muslim\Source\Repos\AutomationTestFramework\AutomationTestFramework\bin\Debug\AutomationTestFramework.dll" adapterTypeName="executor://mstestadapter/v2" className="AutomationTestFramework.TestExecution" name="SelectItem_TC004" />
+    </UnitTest>
+    <UnitTest name="LoginWithValidUserValidPassword_TC001 (Data Row 0)" storage="c:\users\khurram.muslim\source\repos\automationtestframework\automationtestframework\bin\debug\automationtestframework.dll" id="e6db2c00-3433-4075-969b-8d0dd4abc9b3">
+      <Execution id="e0706c36-4ab0-43ab-a3e6-f61cc282c947" />
+      <TestMethod codeBase="C:\Users\khurram.muslim\Source\Repos\AutomationTestFramework\AutomationTestFramework\bin\Debug\AutomationTestFramework.dll" adapterTypeName="executor://mstestadapter/v2" className="AutomationTestFramework.TestExecution" name="LoginWithValidUserValidPassword_TC001" />
+    </UnitTest>
+    <UnitTest name="LoginWithInValidUserInValidPassword_TC002 (Data Row 0)" storage="c:\users\khurram.muslim\source\repos\automationtestframework\automationtestframework\bin\debug\automationtestframework.dll" id="2ef7256f-01d0-4fce-9929-43db08d9cfa4">
+      <Execution id="50cae86f-b513-412f-aee2-e606c252d98c" />
+      <TestMethod codeBase="C:\Users\khurram.muslim\Source\Repos\AutomationTestFramework\AutomationTestFramework\bin\Debug\AutomationTestFramework.dll" adapterTypeName="executor://mstestadapter/v2" className="AutomationTestFramework.TestExecution" name="LoginWithInValidUserInValidPassword_TC002" />
+    </UnitTest>
+  </TestDefinitions>
+  <TestEntries>
+    <TestEntry testId="e6db2c00-3433-4075-969b-8d0dd4abc9b3" executionId="e0706c36-4ab0-43ab-a3e6-f61cc282c947" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="83f9a6cd-8656-4dab-99c3-1efdb7d4f2e5" executionId="14c3a495-e42c-4f3c-934b-8f981e50e612" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="2ef7256f-01d0-4fce-9929-43db08d9cfa4" executionId="50cae86f-b513-412f-aee2-e606c252d98c" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestEntry testId="bead8ff0-4e0b-43f7-a71f-5e7512774399" executionId="b69bc612-80d2-4c00-8298-67aea32f9a45" testListId="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+  </TestEntries>
+  <TestLists>
+    <TestList name="Results Not in a List" id="8c84fa94-04c1-424b-9868-57a2d4851a1d" />
+    <TestList name="All Loaded Results" id="19431567-8539-422a-85d7-44ee4e166bda" />
+  </TestLists>
+  <ResultSummary outcome="Completed">
+    <Counters total="4" executed="4" passed="4" failed="0" error="0" timeout="0" aborted="0" inconclusive="0" passedButRunAborted="0" notRunnable="0" notExecuted="0" disconnected="0" warning="0" completed="0" inProgress="0" pending="0" />
+  </ResultSummary>
+</TestRun>

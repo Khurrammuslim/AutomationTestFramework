@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<Automation>
+	<Execution>
+		<LoginWithValidUserValidPassword_TC001>
+			<url>https://www.saucedemo.com/</url>
+			<username>standard_user</username>
+			<password>secret_sauce</password>
+		</LoginWithValidUserValidPassword_TC001>
+		<LoginWithInValidUserInValidPassword_TC002>
+			<url>https://www.saucedemo.com/</url>
+			<username>stand1</username>
+			<password>se</password>
+		</LoginWithInValidUserInValidPassword_TC002>
+	</Execution>
+</Automation>
